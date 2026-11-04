@@ -1,0 +1,18 @@
+{
+  "name": "@pulsetracker/react-native",
+  "version": "0.4.2",
+  "description": "PulseTracker app attribution for React Native and Expo: which link brought each install, joined to RevenueCat purchases.",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib", "ios", "android/build.gradle", "android/src", "app.plugin.js", "PulseTrackerReactNative.podspec", "README.md"],
+  "scripts": {
+    "vendor": "node scripts/vendor-ios.js",
+    "prepack": "node scripts/vendor-ios.js",
+    "test": "node --test test/index.test.js"
+  },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "https://github.com/TKr0n0s/pulsetracker-react-native" },
+  "peerDependencies": { "react-native": ">=0.71" },
+  "peerDependenciesMeta": { "@expo/config-plugins": { "optional": true } },
+  "keywords": ["react-native", "expo", "attribution", "revenuecat", "deep-link", "mmp"]
+}
