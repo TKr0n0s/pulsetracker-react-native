@@ -6,7 +6,7 @@ purchases are credited to the right link, ad and social network.
 ## Install
 
 ```sh
-npm install github:TKr0n0s/pulsetracker-react-native#0.4.2
+npm install github:TKr0n0s/pulsetracker-react-native#0.4.3
 cd ios && pod install
 ```
 

@@ -1,6 +1,6 @@
 {
   "name": "@pulsetracker/react-native",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "description": "PulseTracker app attribution for React Native and Expo: which link brought each install, joined to RevenueCat purchases.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
